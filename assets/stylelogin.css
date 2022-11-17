@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+/* HEADER SECTION */
+
+
+
+.datoslogin{
+    width: 350px;
+    height: 410px;
+    background: #ffff;
+    color: black;
+    top:30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 90px 30px;
+    
+}
+
+.datoslogin .logologin{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    position: static;
+    top: -50px;
+    left: calc(50% - 50px);
+    padding-top: 0px;
+}
+
+.datoslogin label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    background-color: #fff;
+}
+.datoslogin h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+   
+}
+.datoslogin input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.datoslogin input[type="text"],
+.datoslogin input[type="password"]{
+border: none;
+ border-bottom: 3px solid red;
+background: transparent;
+outline: none;
+height: 40px;
+color: black;
+font-size: 16px;
+
+}
+
+.datoslogin input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.datoslogin a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+    background: #fff;
+}
+.datoslogin a:hover{
+    color: red;
+}

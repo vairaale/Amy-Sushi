@@ -1,0 +1,246 @@
+@media (max-width: 992px) {
+    .listaNavbar{
+        position: absolute;
+        top: 34px;
+        left: 65%;
+        right: 5%;
+        width: 30%;
+        flex-direction: column;
+        background: #fff;
+        border: 2px solid red;
+        border-radius: 15px;
+        align-items: center;
+        padding: 45px 30px;
+        gap: 25px ;
+        z-index: 2;
+        display:none ;
+        
+      } 
+      .listaNavbar a{
+        font-size: 18px;}
+
+        .menu-label{
+            display: flex;
+            cursor: pointer;
+            
+          }
+          
+          #menu-toggle:checked+.listaNavbar{
+            display: flex;
+          }
+    .menu-label img{
+        margin-top: -50px;
+        
+    }
+    .hero-img img{
+        width: 100%;
+              
+     }
+     .categorias-title {
+        padding: 80px 0px 0px 0px;
+        
+      }
+  }   
+  @media (max-width: 768px) {
+    .listaNavbar{
+        position: absolute;
+        top: 34px;
+        left: 65%;
+        right: 5%;
+        width: 30%;
+        flex-direction: column;
+        background: #fff;
+        border: 2px solid red;
+        border-radius: 15px;
+        align-items: center;
+        padding: 45px 30px;
+        gap: 25px ;
+        z-index: 2;
+        display:none ;
+        
+      } 
+     .hero-img img{
+        width: 90%;
+        
+        
+     }
+     .categorias-title {
+        padding: 60px 0px 0px 0px;
+        
+      }
+      .hero-info h1 {
+    font-size: 40px;
+      }
+  
+   .hero-info p {
+    font-size: 18px;
+      }
+      .categorias-card {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+        margin-bottom: 10px;
+        }
+        #hero .hero-info {
+            padding: 100px 30px 0px 30px;
+          } 
+          .logo{
+            width: 30%;
+            padding: 40px 0px 0px 0px;
+           
+            
+        }
+  }
+  @media (max-width: 700px) {
+    .listaNavbar{
+        position: absolute;
+        top: 34px;
+        left: 65%;
+        text-align: center;
+    }
+    .hero-img img{
+        width: 80%;
+              
+     }
+     .hero-info h1 {
+        font-size: 35px;
+          }
+      
+       .hero-info p {
+        font-size: 15px;
+          }
+        
+          .logo{
+            width: 30%;
+           
+            
+        }
+        
+        .categorias-card {
+            width: 100%;
+            max-width: 300px;
+            height: 300px;
+            margin-bottom: 10px;
+            }
+        footer{
+            text-align: center;
+        }
+        #hero .hero-info {
+            padding: 100px 30px 0px 30px;
+          } 
+          .logo{
+            width: 30%;
+            padding: 40px 0px 0px 0px;
+           
+            
+        }
+        .logoredes{
+          width: 35px;
+          height: 35px;
+        
+          
+        }
+       
+}
+  
+  @media (max-width: 576px) {
+    .footer-links {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-img img{
+        width: 95%;
+              
+     }
+     .hero-info p {
+        text-align: center;
+      }
+      .hero-info h1 {
+        text-align: center;
+      }
+      .categorias-title {
+       text-align: center;
+        font-size: 25px;
+      }
+      #productos h2 {
+            
+        text-align: center;
+      }
+      #info h2 {
+        text-align: center;
+      }
+      .info-card {
+        margin-right: 90px;
+      }
+      #contactanos h2{
+                text-align: center;
+      
+        
+        }
+        .contactanos{
+            width: 500px;
+            height: 340px;       
+              
+            
+          }
+          .listaNavbar{
+                     
+            left: 65%;
+            top: 50%;
+            text-align: center;
+
+        }
+        #hero .hero-info {
+            padding: 100px 30px 0px 30px;
+          } 
+          .logo{
+            width: 30%;
+            padding: 40px 0px 0px 0px;
+           
+            
+        }
+        .categorias-card__info--title {
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .logoredes{
+          width: 30px;
+          height: 30px;
+        
+          
+        }
+  }
+  @media (max-width: 480px) {
+    .listaNavbar{
+                     
+        left: 60%;
+        top: 50%;
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    .logo{
+        width: 40%;
+        padding: 60px 0px 0px 0px;
+       
+        
+    }
+    .contactanos{
+        width: 450px;
+        height: 340px;       
+    }
+    #hero .hero-info {
+        padding: 90px 30px 0px 30px;
+      }      
+    
+      .categorias-card__info--title {
+        font-size: 17px;
+        font-weight: 400;
+      }
+      .logoredes{
+        width: 30px;
+        height: 30px;
+      
+        
+      }
+    }

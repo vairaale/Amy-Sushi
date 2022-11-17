@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+.listaNavbar li {
+position: relative;
+padding: 0;
+}
+.listaNavbar li a::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.15s ease;
+}
+.listaNavbar li a:hover::after{
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.categorias-card{
+    transition: all 0.2s ease-out;
+}
+
+.categorias-card:hover{
+    color:red;
+    border-color: red;
+    transition: all 0.2s ease-in;
+}
+
+.btn-agregar{
+    transition: all 0.2s ease-out;
+}
+.btn-agregar:hover{
+    background-color:red;
+    border-color: red;
+    transition: all 0.2s ease-in;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes slide-up {
+    from{
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes slide-right {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.hero-info h1{
+    animation: fade 1s ease-in, slide-up 1.1s ease-out
+}
+.hero-info p{
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-right 1.2 ease-out;
+    animation-delay: 0.2s;
+}
+
+.hero-img{
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-right 1.2 ease-out;
+    animation-delay: 0.6s;
+}
+.info-card img{
+    transition: all 0.3s linear;
+
+}
+.info-card img:hover{
+    transition: all 0.3 linear;
+    transform: scale(1.1);
+}
+.listaRedes img{
+    transition: all 0.3s linear;
+}
+.listaRedes img:hover{
+    transition: all 0.3 linear;
+    transform: scale(1.1);
+
+}
+.productos{
+    transition: all 0.3s linear;
+}
+.productos:hover{
+    transition: all 0.3 linear;
+    transform: scale(1.1);
+}

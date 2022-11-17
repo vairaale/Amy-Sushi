@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: #ffff;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+/* HEADER SECTION */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 90px 0px 30px;
+    position: relative;
+    top: 0;
+    
+      
+}
+.navbar,
+.listaNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+.logo{
+    padding: 90px 0px 0px 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    
+}
+.marco{
+  
+    padding: 40px 0px 0px 0px;
+    background-color: red;
+   
+    
+}
+#menu-toggle, .menu-label{
+  display:none;
+     
+  }
+
+  .menu-label img{
+   
+  border: 2px solid black;
+}
+
+/* Hero SECTION */
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+  }
+ 
+  #hero .hero {
+    display: flex;
+    align-items: stretch;
+      }
+  
+  #hero .hero-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    padding: 150px 30px 0px 30px;
+  }
+  
+  .hero-info h1 {
+    max-width: 600px;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+   .hero-info p {
+    font-size: 21px;
+    font-weight: 400;
+  }
+  
+.hero-img {
+    width: 50%;
+    position: relative;    
+    top: 60px;
+      
+  }
+
+  /* SECCIÓN CATEGORÍAS */
+
+ 
+.categorias {
+    width: 100%;
+  
+   
+  }
+  .categorias-title {
+    margin-left: 18px;
+    font-size: 25px;
+  }
+  .categorias-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .categorias-card {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 1rem;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+  }
+
+  .categorias-card__img {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .categorias-card__img img {
+    width: 200px;
+    height: 200px;
+   
+  }
+  .categorias-card__info--title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .categorias-card__info--line {
+    width: 24px;
+    height: 4px;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+  
+  /*SECCIÓN PRODUCTOS*/
+
+#productos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid red;
+  margin-bottom: 20px;
+  
+  }
+.productos img {
+  width: 150px;
+  height: 150px;
+  
+  }
+
+#productos h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding: 20px 4px;
+
+  
+  
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  padding: 15px 20px;
+  border-radius: 1rem;
+  border: 2px solid black;
+  gap: 3px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  
+}
+
+.productos h3 {
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #ffff;
+  color: black;
+  
+}
+
+.productos p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 3px;
+  background-color: #ffff;
+  
+}
+
+.productos-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+
+.productos span {
+  font-size: 20px;
+  font-weight: 700;
+  background-image: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: black;
+  
+}
+
+.btn-agregar {
+  font-weight: 500;
+  border-radius: 15px;
+  background-image: grey;
+  border: none;
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: grey;
+}
+  
+ /* Seccion Info  */
+#info {
+    max-width: 1200px;
+  padding: 0px 20px 0px 20px;
+
+   
+}
+#info h2 {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: justify;
+}
+.info-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 90px;
+
+    
+}
+.info-card {
+  width: 300px;
+  height: 300px;
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color:  red;
+   gap: 2px;
+   
+  
+  
+}
+.info-card img {
+  width: 150px;
+  
+ 
+ }
+
+.info-card h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.info-card p {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  
+}
+/* CONTACTANOS  */
+
+#contactanos h2{
+  font-size: 25px;
+  font-weight: 800;
+  text-align: justify;
+  padding: 0px 20px 0px 20px;
+ border-bottom: 5px solid red;
+  
+  }
+ 
+.padrecontacto{
+ margin:   50px;
+
+
+  
+}
+.contactanos{
+  width: 600px;
+  height: 350px;
+    color: black;
+  top: 150px;
+  left: 50%;
+position: relative;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+padding:10px  ;
+  border: 15px solid red;
+  
+  
+}
+
+.datoslogin .logologin{
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  position: static;
+  top: -50px;
+  left: calc(50% - 50px);
+  padding-top: 0px;
+}
+  .contacto label, .contacto input, .contacto textarea {
+  width: 100%;
+  margin-bottom: 8px;
+  align-items: center;
+  
+  } 
+
+  
+  .contactanos input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 25px;
+    background: red;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.contactanos input[type="text"]{
+  border: none;
+   border-bottom: 1px solid red;
+  background: transparent;
+  outline: none;
+  height: 15px;
+  color: black;
+  font-size: 16px;
+  
+  }
+.logoredes{
+  width: 50px;
+  height: 50px;
+
+  
+}
+.listaRedes{
+  display:flex;  
+flex-direction: row;
+justify-content: center;
+text-align: center;
+gap: 30px;
+padding-top: 20px;
+
+
+}
+.listaRedes a{
+  text-decoration: none;
+
+  
+}
+
+/* FOOTER  */
+
+footer {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 50px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+

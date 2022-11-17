@@ -1,0 +1,186 @@
+@media (max-width: 992px) {
+    .logo{
+        padding: 10px 0px 0px 20px;
+     
+        
+    }
+    .datoslogin{
+        width: 530px;
+        height: 230px;
+            
+    }
+    .datoslogin h2{
+        font-size: 20px;
+    }
+    .datoslogin input[type="text"],
+    .datoslogin input[type="password"]{
+    
+    font-size: 15px;
+    height: 20px;
+    
+    }
+    .datoslogin input[type="submit"]{
+       
+        height: 35px;
+        
+        font-size: 18px;
+        border-radius: 18px;
+        
+    }
+    .datoslogin label{
+        font-size: 17px;
+    }
+
+  }
+
+  @media (max-width: 830px){
+    .datoslogin{
+        width: 450px;
+        height: 350px;
+            
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .logo{
+        padding: 10px 0px 0px 10px;
+     
+       
+    }
+    .datoslogin{
+        width: 400px;
+        height: 300px;
+            
+    }
+    .datoslogin h2{
+        font-size: 20px;
+    }
+    .datoslogin input[type="text"],
+    .datoslogin input[type="password"]{
+    
+    font-size: 13px;
+    height: 20px;
+    
+    }
+    .datoslogin input[type="submit"]{
+       
+        height: 35px;
+        
+        font-size: 17px;
+        border-radius: 18px;
+        
+    }
+    .datoslogin label{
+        font-size: 17px;
+    }
+
+  }
+
+
+
+@media (max-width: 700px){
+    .logo{
+        padding: 10px 0px 0px 0px;
+     
+        
+    }
+    .datoslogin{
+        width: 400px;
+        height: 300px;
+            
+    }
+    .datoslogin h2{
+        font-size: 20px;
+    }
+    .datoslogin input[type="text"],
+    .datoslogin input[type="password"]{
+    
+    font-size: 13px;
+    height: 20px;
+    
+    }
+    .datoslogin input[type="submit"]{
+       
+        height: 35px;
+        
+        font-size: 15px;
+        border-radius: 18px;
+        
+    }
+    .datoslogin label{
+        font-size: 16px;
+    }
+
+ }
+
+
+ @media (max-width: 620px) {
+    .logo{
+        padding: 10px 0px 0px 0px;
+     
+        
+    }
+    .datoslogin{
+        width: 300px;
+        height: 300px;
+            
+    }
+    .datoslogin h2{
+        font-size: 18px;
+    }
+    .datoslogin input[type="text"],
+    .datoslogin input[type="password"]{
+    
+    font-size: 13px;
+    height: 20px;
+    
+    }
+    .datoslogin input[type="submit"]{
+       
+        height: 30px;
+        
+        font-size: 12px;
+        border-radius: 16px;
+        
+    }
+    .datoslogin label{
+        font-size: 13px;
+    }
+
+ }
+
+@media (max-width: 480px) {
+.logo{
+    padding: 10px 0px 0px 0px;
+ 
+    
+}
+.datoslogin{
+    width: 300px;
+    height: 300px;
+        
+}
+.datoslogin h2{
+    font-size: 18px;
+}
+.datoslogin input[type="text"],
+.datoslogin input[type="password"]{
+
+font-size: 13px;
+height: 20px;
+
+}
+.datoslogin input[type="submit"]{
+   
+    height: 30px;
+    
+    font-size: 12px;
+    border-radius: 16px;
+    
+}
+.datoslogin label{
+    font-size: 12px;
+}
+
+}
